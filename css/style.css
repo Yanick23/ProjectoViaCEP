@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header{
+    display: flex;
+    height: 80px;
+    background-color: rgb(255 160 0);
+   justify-content: center;
+   color: white;
+}
+.container{
+    font-size: x-large;
+    display: flex ;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+   
+}
+
+nav ul, nav li{
+    list-style: none;
+
+}
+.menu nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+main{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+
+
+}
+main .container{
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#List-saction{
+    
+    height: auto;
+    justify-content: center;
+   
+}
+
+#List-saction .card{
+    padding: 20px;
+    width: inherit;
+    background-color: rgb(56, 56, 56);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.card .cidade{
+    color: rgb(255 160 0);
+    font-weight: bolder;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.card .adress{
+    color: white;
+    font-size: 14px;
+}
+.card .caixapostal{
+    color: rgb(155, 155, 155);
+    font-size: 17px;
+    font-size: 12px;
+}
+.card-form{
+    background-color: #333;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+.form-control{
+    margin-bottom: 20px;
+}
+
+.form-control label{
+    display: none;
+}
+
+.error-messeger{
+    margin-top: 5px;
+    font-size: medium;
+    color: #faa;
+
+}
+.form-input{
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    padding:0 20px ;
+    font-size: 14px;
+    border: 0;
+
+}
+
+.form-input ::placeholder{
+    color: #c9c9c9;
+}
+.form-input:disabled{
+    background-color: #c9c9c9;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 250px;
+    height: 50px;
+    background-color: #ff8400;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+

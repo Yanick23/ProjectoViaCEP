@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script type="module"  src="Javascrpt/dsviacep.js"></script>
+    <header>
+        <div class="container">
+            <div class="logo"> <h1>DSViaCEP</h1> </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="">Contacto</a></li>
+                    </ul>          
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main >
+        <div class="container">
+            <section id="form-saction">
+
+                <div class="card-form">
+                    <form name="newAdress">
+
+                   
+                    <div class="form-control">
+                        <label for="cep">CEP</label>  
+                        <input name = "cep" id="cep" class="form-input" type="text" placeholder="cep" > 
+                        <div class="error-messeger"  data-error="cep"></div>
+                    </div>
+                    <div class="form-control">
+                        <label for="street">Logradouro</label>  
+                        <input name = "street" id="street" class="form-input" type="text" placeholder="street" disabled > 
+                       
+                    </div>
+                    <div class="form-control">
+                        <label for="number">Número</label>  
+                        <input name = "number" id="number" class="form-input" type="text" placeholder="number" > 
+                        <div class="error-messeger" data-error="number"> </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="Cidade">Cidade</label>  
+                        <input name = "cidade" id="cidade" class="form-input" type="text" placeholder="cidade" disabled > 
+                     
+                    </div>
+                    <div class="btn-container">
+                        <button name="btnsave" class="btn" type="submit">Salvar</button>
+                        <button  name="btnclear" class="btn" >Limpar</button>
+                    </div>
+                </form>
+                </div>
+            </section>
+            <section id="List-saction">
+                <div class="card">
+                    <div class="cidade">Maputo</div>
+                    <div class="adress">Rua doce picante, 750</div>
+                    <div class="caixapostal">11200</div>
+                </div>
+                <div class="card">
+                    <div class="cidade">Maputo</div>
+                    <div class="adress">Rua doce picante, 750</div>
+                    <div class="caixapostal">11200</div>
+                </div>
+                <div class="card">
+                    <div class="cidade">Maputo</div>
+                    <div class="adress">Rua doce picante, 750</div>
+                    <div class="caixapostal">11200</div>
+                </div>
+                <div class="card">
+                    <div class="cidade">Maputo</div>
+                    <div class="adress">Rua doce picante, 750</div>
+                    <div class="caixapostal">11200</div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+   
+</body>
+</html>
